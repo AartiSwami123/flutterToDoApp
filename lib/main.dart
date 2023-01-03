@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/homepage.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -20,14 +21,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // This trailing comma makes auto-formatting nicer for build methods.
-      home: Scaffold(
-          body: Container(
-        child: Center(
-            child: Text(
-          "Introduction to Flutter",
-          style: TextStyle(fontSize: 24),
-        )),
-      )),
+      home: Homepage(),
     );
   }
 }
